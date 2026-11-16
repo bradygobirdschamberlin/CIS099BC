@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" role="img" aria-labelledby="title desc">
+  <title id="title">Eagle over a Philadelphia football stadium</title>
+  <desc id="desc">A stylized midnight green eagle flies over a packed stadium at sunset.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#12635b"/><stop offset=".58" stop-color="#b2764d"/><stop offset="1" stop-color="#edc17e"/></linearGradient>
+    <linearGradient id="feather" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7fbf4"/><stop offset=".38" stop-color="#9ecac0"/><stop offset="1" stop-color="#dfeae2"/></linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#3c8271"/><stop offset="1" stop-color="#16463f"/></linearGradient>
+    <clipPath id="frame"><path d="M30 52Q30 28 55 28h650q25 0 25 24v383q0 24-25 24H55q-25 0-25-24z"/></clipPath>
+    <pattern id="crowd" width="18" height="15" patternUnits="userSpaceOnUse"><circle cx="4" cy="5" r="2.1" fill="#f2dcad"/><circle cx="13" cy="10" r="2.3" fill="#bbd4c9"/><circle cx="16" cy="2" r="1.7" fill="#d88b57"/><circle cx="2" cy="13" r="1.5" fill="#e9f2e8"/></pattern>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="url(#sky)" d="M30 28h700v455H30z"/>
+    <circle cx="580" cy="153" r="65" fill="#f1c68b" opacity=".77"/>
+    <path d="M30 298q130-72 230 0t235-4q130-69 235 5v185H30z" fill="#172f30" opacity=".38"/>
+    <path d="M30 319q175-84 350 3 175-86 350 0v51H30z" fill="#e3b771" opacity=".7"/>
+    <path d="M30 341q175-87 350 3 175-88 350 1v139H30z" fill="#173b38"/>
+    <path d="M34 363q171-73 346 4 175-77 346 1v68H34z" fill="url(#crowd)" opacity=".92"/>
+    <path d="M30 421h700v70H30z" fill="url(#field)"/>
+    <path d="M99 421v70m112-70v70m112-70v70m112-70v70m112-70v70m112-70v70" stroke="#d7e5d8" stroke-width="2" opacity=".45"/>
+    <path d="M30 445h700m-700 23h700" stroke="#e4eee0" stroke-width="1.5" opacity=".4"/>
+    <path d="M113 385h86v36h-86z" fill="#d9e7df"/><text x="156" y="411" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#075047">EAGLES</text>
+    <g transform="translate(366 214) rotate(-9)">
+      <path d="M-20 19C-91-29-205-72-303-67c54 26 103 54 142 88-45-14-99-14-160 0 73 9 130 32 183 65-38-7-75-4-111 10 76 7 140 26 207 62 28 15 53 17 78 8-6-32-3-67 9-102 22 34 49 59 83 78 14-45 38-82 71-109 43-35 92-50 151-46-45-28-98-39-158-32 46-28 92-42 141-42-58-19-122-18-189 1-45 13-81 32-110 55 5-29 20-53 46-74-44 12-80 34-106 66-13 16-22 33-28 53z" fill="url(#feather)" stroke="#e8f3eb" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M-25 23c-29-18-66-34-108-49 40 27 69 53 95 83M18 18c18-39 44-66 79-84-20 29-31 60-35 92M-9 34c-24 6-49 18-73 36 31-8 58-9 82-4" fill="none" stroke="#559087" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+      <path d="M105 5q20-19 43-10l-25 18 33 4q-25 18-52 9z" fill="#e1a454"/>
+      <circle cx="101" cy="-10" r="3.5" fill="#123b3a"/>
+    </g>
+    <g fill="#fff4dc" opacity=".9"><path d="M58 319l-8 29h16l-8-29zm0 0v-21"/><path d="M700 318l-8 29h16l-8-29zm0 0v-21"/></g>
+    <path d="M31 29h698v454H31z" fill="none" stroke="#e5bd7b" stroke-width="3" opacity=".55"/>
+  </g>
+</svg>
